@@ -1,0 +1,27 @@
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declare an array of 5 integers
+        int[] numbers = new int[5];
+
+        // Store values in the array
+        numbers[0] = 10;
+        numbers[1] = 20;
+        numbers[2] = 30;
+        numbers[3] = 40;
+        numbers[4] = 50;
+
+        // Display array elements
+        Console.WriteLine("Array Elements:");
+
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            Console.WriteLine(numbers[i]);
+        }
+    }
+}
+```
